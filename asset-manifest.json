@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/glabbr/static/css/main.713f2079.css",
+    "main.js": "/glabbr/static/js/main.9097a3bd.js",
+    "static/js/787.585224ee.chunk.js": "/glabbr/static/js/787.585224ee.chunk.js",
+    "static/media/revicons.eot": "/glabbr/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/glabbr/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/glabbr/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/glabbr/index.html",
+    "main.713f2079.css.map": "/glabbr/static/css/main.713f2079.css.map",
+    "main.9097a3bd.js.map": "/glabbr/static/js/main.9097a3bd.js.map",
+    "787.585224ee.chunk.js.map": "/glabbr/static/js/787.585224ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.713f2079.css",
+    "static/js/main.9097a3bd.js"
+  ]
+}
