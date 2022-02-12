@@ -1,0 +1,41 @@
+.table {
+  margin-top: 25px;
+}
+.table .header h2 {
+  padding: 0 20px;
+  color: rgb(28, 28, 255);
+}
+
+.ant-table {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(82, 82, 82);
+}
+.ant-table-thead > tr > th {
+  color: gray;
+  background-color: rgb(215, 214, 236) !important;
+}
+.table .name h3,
+.table .name p {
+  margin: 0%;
+  padding: 0%;
+}
+.table .name p {
+  font-size: small;
+}
+
+.table .tag {
+  font-size: 13px;
+}
+.table .action {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  align-items: center;
+}
+
+.table .action .icon {
+  margin-right: 1vw;
+  margin-bottom: 10px;
+}

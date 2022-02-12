@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { useEffect } from "react";
+import TableComp from "./Component/Table/Table";
+import CarouselCom from "./Component/Carousel/Carousel";
+import { useDispatch } from "react-redux";
+import { getUsers } from "./redux/Actions/action";
+import NavBar from "./Component/NavBar/NavBar";
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getUsers());
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <NavBar />
+      <CarouselCom />
+      <TableComp />
     </div>
   );
 }

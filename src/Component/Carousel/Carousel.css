@@ -1,0 +1,75 @@
+.carousel .header h2 {
+  padding: 0 20px;
+  color: rgb(28, 28, 255);
+}
+.carousel-item {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.carousel-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(209, 204, 204);
+  padding-bottom: 10px;
+}
+.carousel-header .icon {
+  background-color: rgb(228, 225, 225);
+  color: rgb(119, 119, 119);
+  padding: 2px;
+  border-radius: 30px;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.carousel-header .avatar {
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.header-name h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.header-name p {
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.carousel-middle {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5vw;
+  margin-bottom: 20px;
+}
+.carousel-middle p {
+  margin: 0;
+  padding: 0;
+  font-weight: 650;
+}
+
+.carousel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-footer div {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+.carousel-footer .icon {
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
